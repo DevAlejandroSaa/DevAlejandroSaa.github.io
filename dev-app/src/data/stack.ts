@@ -1,4 +1,5 @@
 export const stack = [
+
     {
         category: 'Backend',
         technologies: [
@@ -12,33 +13,7 @@ export const stack = [
             { name: 'CQRS', icon: 'fa-solid fa-code-branch' }
         ]
     },
-    {
-        category: 'Testing',
-        technologies: [
-            { name: 'JUnit', icon: 'fa-solid fa-vial' },
-            { name: 'Mockito', icon: 'fa-solid fa-flask' },
-            { name: 'Testcontainers', icon: 'fa-solid fa-box' }
-        ]
-    },
-    {
-        category: 'Mensajería y datos',
-        technologies: [
-            { name: 'Apache Kafka', icon: 'fa-solid fa-wave-square' },
-            { name: 'Redis', icon: 'fa-solid fa-database' },
-            { name: 'MongoDB', icon: 'fa-solid fa-leaf' }
-        ]
-    },
-    {
-        category: 'Bases de datos',
-        technologies: [
-            { name: 'MySQL', icon: 'fa-solid fa-database' },
-            { name: 'MariaDB', icon: 'fa-solid fa-database' },
-            { name: 'Oracle 11g XE', icon: 'fa-solid fa-database' },
-            { name: 'SQL Server', icon: 'fa-solid fa-database' },
-            { name: 'PostgreSQL', icon: 'fa-solid fa-database' },
-            { name: 'SQLite', icon: 'fa-solid fa-database' }
-        ]
-    },
+
     {
         category: 'Frontend',
         technologies: [
@@ -55,6 +30,35 @@ export const stack = [
             { name: 'pnpm', icon: 'fa-solid fa-box' }
         ]
     },
+
+    {
+        category: 'Bases de datos',
+        technologies: [
+            { name: 'MySQL', icon: 'fa-solid fa-database' },
+            { name: 'MariaDB', icon: 'fa-solid fa-database' },
+            { name: 'Oracle 11g XE', icon: 'fa-solid fa-database' },
+            { name: 'SQL Server', icon: 'fa-solid fa-database' },
+            { name: 'PostgreSQL', icon: 'fa-solid fa-database' },
+            { name: 'SQLite', icon: 'fa-solid fa-database' }
+        ]
+    },
+
+    {
+        category: 'Mensajería y datos',
+        technologies: [
+            { name: 'Apache Kafka', icon: 'fa-solid fa-wave-square' },
+            { name: 'Redis', icon: 'fa-solid fa-database' },
+            { name: 'MongoDB', icon: 'fa-solid fa-leaf' }
+        ]
+    },
+
+    {
+        category: 'Arquitectura',
+        technologies: [
+            { name: 'Screaming Architecture', icon: 'fa-solid fa-sitemap' }
+        ]
+    },
+
     {
         category: 'Infraestructura',
         technologies: [
@@ -64,18 +68,14 @@ export const stack = [
             { name: 'SonarQube', icon: 'fa-solid fa-code' }
         ]
     },
-    {
-        category: 'Arquitectura',
-        technologies: [
-            { name: 'Screaming Architecture', icon: 'fa-solid fa-sitemap' }
-        ]
-    },
+
     {
         category: 'Gestión',
         technologies: [
             { name: 'Jira', icon: 'fa-solid fa-list-check' }
         ]
     },
+
     {
         category: 'Control de versiones',
         technologies: [
@@ -85,6 +85,7 @@ export const stack = [
             { name: 'SVN', icon: 'fa-solid fa-code-branch' }
         ]
     },
+
     {
         category: 'Scripting',
         technologies: [
@@ -92,5 +93,15 @@ export const stack = [
             { name: 'ksh', icon: 'fa-solid fa-terminal' },
             { name: 'zsh', icon: 'fa-solid fa-terminal' }
         ]
+    },
+
+    {
+        category: 'Testing',
+        technologies: [
+            { name: 'JUnit', icon: 'fa-solid fa-vial' },
+            { name: 'Mockito', icon: 'fa-solid fa-flask' },
+            { name: 'Testcontainers', icon: 'fa-solid fa-box' }
+        ]
     }
+
 ];
