@@ -26,9 +26,11 @@ const { title = "Alejandro Saa" } = Astro.props;
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg border-bottom">
                 <div class="container">
-                    <a class="navbar-brand" href="/">Alejandro Saa</a>
+                    <a class="navbar-brand fw-semibold" href="/">
+                        Alejandro Saa
+                    </a>
 
                     <button
                         class="navbar-toggler"
@@ -48,14 +50,17 @@ const { title = "Alejandro Saa" } = Astro.props;
                                 <a class="nav-link" href="#sobre-mi">sobre mí</a
                                 >
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#stack">stack</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#proyectos"
                                     >proyectos</a
                                 >
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="#contacto">contacto</a
                                 >
@@ -70,9 +75,11 @@ const { title = "Alejandro Saa" } = Astro.props;
             <slot />
         </main>
 
-        <footer>
-            <div class="container">
-                <p class="mb-0">© {new Date().getFullYear()} alejandro saa</p>
+        <footer class="border-top mt-5 py-4">
+            <div class="container text-center">
+                <p class="mb-0 text-body-secondary">
+                    © {new Date().getFullYear()} Alejandro Saa
+                </p>
             </div>
         </footer>
 
