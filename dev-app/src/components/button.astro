@@ -1,0 +1,25 @@
+---
+interface Props {
+    text: string;
+    type?: "button" | "submit" | "reset";
+    variant?: keyof typeof buttonVariants;
+}
+
+const buttonVariants = {
+    primary: "btn-primary",
+    secondary: "btn-secondary",
+    success: "btn-success",
+    danger: "btn-danger",
+    warning: "btn-warning",
+    info: "btn-info",
+    light: "btn-light",
+    dark: "btn-dark",
+    link: "btn-link",
+} as const;
+
+const { text, type = "button", variant = "primary" } = Astro.props;
+---
+
+<button type={type} class={`btn ${buttonVariants[variant]}`}>
+    {text}
+</button>

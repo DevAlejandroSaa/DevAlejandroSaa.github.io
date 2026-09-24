@@ -1,0 +1,34 @@
+# Astro
+/dev-app/dist/
+/dev-app/.astro/
+
+# Dependencies
+/dev-app/node_modules/
+
+# Environment
+/dev-app/.env
+/dev-app/.env.*
+!/dev-app/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Coverage
+/coverage/
+/dev-app/coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+*.vscode/
+*.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp

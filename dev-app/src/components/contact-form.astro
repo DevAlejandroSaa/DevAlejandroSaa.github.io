@@ -1,0 +1,13 @@
+---
+import Button from "./button.astro";
+import Input from "./input.astro";
+import TextArea from "./text-area.astro";
+---
+
+<form>
+    <Input id="name" name="name" label="Nombre" required />
+    <Input id="email" name="email" label="Correo electrónico" required />
+    <Input id="subject" name="subject" label="Asunto" required />
+    <TextArea id="message" name="message" label="Message" rows={6} required />
+    <Button text="Enviar mensaje" type="submit" variant="primary" />
+</form>

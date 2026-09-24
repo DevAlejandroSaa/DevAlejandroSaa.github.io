@@ -1,0 +1,21 @@
+---
+interface Props {
+    id: string;
+    name: string;
+    label: string;
+    rows?: number;
+    required?: boolean;
+}
+
+const { id, name, label, rows = 6, required = false } = Astro.props;
+---
+
+<div class="mb-3">
+    <label for={id} class="form-label">{label}</label>
+    <textarea
+        id={id}
+        name={name}
+        class="form-control"
+        rows={rows}
+        required={required}></textarea>
+</div>

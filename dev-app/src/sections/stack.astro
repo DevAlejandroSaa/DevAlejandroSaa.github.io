@@ -1,0 +1,24 @@
+---
+import { stack } from "../data/stack";
+---
+
+<section id="stack">
+    <h2>Stack</h2>
+
+    {
+        stack.map((category) => (
+            <div>
+                <h3>{category.category}</h3>
+
+                <ul>
+                    {category.technologies.map((technology) => (
+                        <li>
+                            <i class={technology.icon} />
+                            <span>{technology.name}</span>
+                        </li>
+                    ))}
+                </ul>
+            </div>
+        ))
+    }
+</section>
